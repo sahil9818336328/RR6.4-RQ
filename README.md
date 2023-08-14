@@ -2,10 +2,6 @@
 
 React router 6.4 plus and React query
 
-#### Figma File
-
-[MixMaster Design](https://www.figma.com/community/file/1255860657910062828)
-
 ## Steps
 
 #### Install and Setup
@@ -212,7 +208,6 @@ export default Navbar
 - no name collisions
 - apply javascript logic
 - [Styled Components Docs](https://styled-components.com/)
-- [Styled Components Course](https://www.udemy.com/course/styled-components-tutorial-and-project-course/?referralCode=9DABB172FCB2625B663F)
 
 ```sh
 npm install styled-components
@@ -1010,9 +1005,6 @@ If the action attribute is not provided in the HTML form, the browser will send 
 
 #### FormData API
 
-- covered in React fundamentals
-  [JS Nuggets - FormData API](https://youtu.be/5-x4OUM-SP8)
-
 - a great solution when you have bunch of inputs
 - inputs must have name attribute
 
@@ -1391,12 +1383,4 @@ const Cocktail = () => {
   const { data } = useQuery(singleCocktailQuery(id))
   // rest of the code
 }
-```
-
-#### Redirects
-
-- in public folder create "\_redirects"
-
-```
-/* /index.html 200
 ```
